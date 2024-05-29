@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg,blue ,rgb(176, 47, 212));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.9rem;
+}
+body .container h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body .container h1 span{
+    color: red;
+    border-bottom: 0.5rem solid white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+body .container textarea{
+    background: rgba(255,255,255,0.2);
+    border-radius: 0.5rem;
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    color: white;
+    line-height: 1.2rem;
+    height: 10rem;
+    width: auto;
+}
+#last-container {
+    display: flex;
+    justify-content: space-between;
+}
+#last-container select{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    width: 67%;
+    background: transparent;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    cursor: pointer;
+    /* appearance: none; */
+    outline: none;
+}
+textarea::placeholder{
+    color: white;
+}
+#last-container  button{
+    padding: 0rem 1.3rem;
+    background: rgb(219, 16, 111);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+option{
+    color: black;
+    background: transparent;
+}
